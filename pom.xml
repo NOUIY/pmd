@@ -104,7 +104,7 @@
         <pmd.plugin.version>3.22.0</pmd.plugin.version>
         <ant.version>1.10.14</ant.version>
         <javadoc.plugin.version>3.6.3</javadoc.plugin.version>
-        <antlr.version>4.9.3</antlr.version>
+        <antlr.version>4.13.1</antlr.version>
         <slf4j.version>1.7.36</slf4j.version>
         <saxon.version>12.4</saxon.version>
 
@@ -113,7 +113,7 @@
         <pmd.website.baseurl>https://docs.pmd-code.org/snapshot</pmd.website.baseurl>
 
         <argLine>-Xmx512m -Dfile.encoding=${project.build.sourceEncoding} ${extraArgLine}</argLine>
-        <extraArgLine /> <!-- empty by default, profiles set it as needed -->
+        <extraArgLine/> <!-- empty by default, profiles set it as needed -->
 
         <pmd.build-tools.version>25</pmd.build-tools.version>
 
