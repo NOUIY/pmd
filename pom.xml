@@ -113,7 +113,7 @@
         <pmd.website.baseurl>https://docs.pmd-code.org/snapshot</pmd.website.baseurl>
 
         <argLine>-Xmx512m -Dfile.encoding=${project.build.sourceEncoding} ${extraArgLine}</argLine>
-        <extraArgLine /> <!-- empty by default, profiles set it as needed -->
+        <extraArgLine/> <!-- empty by default, profiles set it as needed -->
 
         <pmd.build-tools.version>26</pmd.build-tools.version>
 
@@ -890,7 +890,7 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>33.0.0-jre</version>
+                <version>33.4.6-jre</version>
             </dependency>
 
             <!-- scala-reflect and scala-library needed by pmd-apex via apex-link -->
